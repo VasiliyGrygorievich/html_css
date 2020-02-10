@@ -1,84 +1,80 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-.container {
-    width: 900px;
-    margin: 0 auto;
-}
-.site-navigation {
-    display: inline-block;
-    width: 700px;
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    list-style: none;
-}
-
-.site-navigation li {
-    display: inline-block;
-    margin-right: 120px;
-}
-
-.site-navigation li:last-child {
-    margin: 0px;
-}
-
-.site-navigation a:hover, {
-    color: #e84545;
-}
-
-.features-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
-}
-
-.features-list-item {
-    display: inline-block;
-    width: 420px;
-}
-
-
-.features-list-item:nth-child(2n) {
-    margin-right: 0px;
-}
-
-p {
-    color: #636363;
-}
-
-    {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
+    .body, p, button {
+        font-family: Playfair Display, serif;
+        font-style: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #626262;
     }
 
-    body {
-        font-family: Roboto, sans-serif;
-        font-size: 20px;
+    .wrapper {
+        width: 900px;
+        margin: 0 auto;
     }
-    .text {
+
+    .navigation ul {
         text-align: center;
-        padding: 10px 0;
-        background-color: #212121;
-        color: #212121;
     }
-    .box {
-        text-align: center;
 
-        padding: 10px 0;
-        background-color: #ffffff;
-    }
-    .inline-box {
+    .navigation li {
         display: inline-block;
-        background-color: #ffffff;
-        color: #212121;
+        margin-top: 75px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+    }
+
+    .navigation li:last-child {
+        margin-right: 0;
+    }
+
+    .navigation li a {
+        text-transform: uppercase;
+    }
+
+    .navigation li a:hover {
+        color: #03a9f4;
+    }
+
+    .posts-wrap {
+        font-size: 0;
+    }
+
+    .post {
+        display: inline-block;
+        width: 420px;
+        font-size: 14px;
+        margin-right: 60px;
+        margin-bottom: 130px;
+    }
+
+    .post:nth-child(even) {
+        margin-right: 0;
+    }
+    .post:nth-last-child(-n+2) {
+        margin-bottom: 55px;
+    }
+    .post img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .post-category {
+        font: 300 14px 'Ubunt', sans-serif;
+        text-transform: uppercase;
+        color: #b4ad9e;
+        margin-top: 26px;
+        margin-bottom: 30px;
+    }
+
+    .post h3 {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+
+    .btn-more {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        border: 1px solid;
+        padding: 20px 35px;
     }
