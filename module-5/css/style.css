@@ -229,12 +229,12 @@
   
   /*для hover-эффекта*/
   .product-card__img  {
-  z-index: 2;
+  z-index: 1;
   transition: all 0.6s ease 0s;
   }
   
   .product-card__img:hover  {
-  z-index: 1;
+  z-index: 2;
   filter: brightness(55%);
   -webkit-filter: brightness(55%);
   transition: all 0.6s ease 0s;
