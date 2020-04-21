@@ -1,5 +1,6 @@
     .body, p, button {
         font-family: Playfair Display, serif;
+        font-style: 14px;
         font-weight: 400;
         line-height: 24px;
         color: #626262;
@@ -48,16 +49,18 @@
     .post:nth-child(even) {
         margin-right: 0;
     }
+
     .post:nth-last-child(-n+2) {
         margin-bottom: 55px;
     }
+
     .post img {
         display: block;
         width: 100%;
         height: auto;
     }
 
-    .post-category {
+    .post .category {
         font: 300 14px 'Ubunt', sans-serif;
         text-transform: uppercase;
         color: #b4ad9e;
@@ -76,4 +79,5 @@
         font-size: 20px;
         border: 1px solid;
         padding: 20px 35px;
+        margin-bottom: 75px;
     }
