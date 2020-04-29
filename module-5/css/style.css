@@ -10,8 +10,6 @@ ul, ol {
   list-style: none
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
   .header_container {
     margin: 0 auto;
     width: 1140px;
@@ -92,14 +90,6 @@ ul, ol {
     background-color: rgb(26, 188, 156);
   }
 
-  .featured-products {
-    width: 1600px;
-    padding-top: 101px;
-    padding-bottom: 101px;
-    background-color: #e9f0fd;
-    margin: 0 auto;
-  }
-
   .slider {
     margin: 0 auto;
     width: 1600px;
@@ -107,18 +97,47 @@ ul, ol {
     position: relative;                                                                        
   }
 
-  .slider-button {
+  .wrapper {
     width: 1111px;
     height: 105px;
     z-index: 2;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
+  .box {      
+    background: #1abc9c;
+    width: 104px;
+    height: 104px;
+    font-family: sans-serif;
+    font-size: 26px;
+    text-align: center;
+    line-height: 120px;
+    top: ;
+    
+  }   
+  
+  .left { 
+    background-image: url(../img/prev.png);
+    float: left; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .right { 
+    background-image: url(../img/next.png);
+    float: right;
+    background-repeat: no-repeat; 
+    background-position: center;
+  }
+
+  .slider-button {
+
+  }
+
   .slider-icon-left {
-    background-image: url(../img/SLIDER\ ARROW.png);
+    background-image: url(../img/prev.png);
     background-color: #1abc9c;
     width: 104px;
     height: 104px;
@@ -127,10 +146,11 @@ ul, ol {
     margin-right: 10px;
     bottom: 25px;
     left: 1%;
+    background-position: center;
   }
 
   .slider-icon-right {
-    background-image: url(../img/SLIDER\ ARROW\ \(1\).png);
+    background-image: url(../img/next.png);
     background-color: #1abc9c;
     width: 104px;
     height: 104px;
@@ -138,6 +158,11 @@ ul, ol {
     position: absolute;
     margin-left: 1010px;
     bottom: 25px;
+    background-position: center;
+  }
+
+  .slider-button-icon {
+
   }
 
   .slider__img {
@@ -146,6 +171,14 @@ ul, ol {
     padding: 0;
     z-index: 1;
     filter: brightness(55%);
+  }
+
+  .featured-products {
+    width: 1600px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+    background-color: #e9f0fd;
+    margin: 0 auto;
   }
 
   .heading_text {
@@ -342,3 +375,15 @@ ul, ol {
   .themengraph {
     color: #1abc9c;
   }
+
+
+  .wrapper {
+    width: 1111px;
+    margin: auto;
+    padding: 10px;
+  /* 
+    height: auto;
+    overflow: hidden;
+  */
+}
+
