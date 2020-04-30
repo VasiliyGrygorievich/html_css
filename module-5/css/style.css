@@ -92,7 +92,6 @@
 
   .slider {
     margin: 0 auto;
-    width: 1600px;
     padding: 0; 
     position: relative;                                                                        
   }
@@ -117,7 +116,6 @@
     font-size: 26px;
     text-align: center;
     line-height: 120px;
-    top: ;
   }   
 
   .box:hover {
@@ -164,18 +162,9 @@
 
   .slider__img {
     margin: 0 auto;
-    width: 1600px;
     padding: 0;
     z-index: 0;
     filter: brightness(55%);
-  }
-
-  .featured-products {
-    width: 1600px;
-    padding-top: 101px;
-    padding-bottom: 101px;
-    background-color: #e9f0fd;
-    margin: 0 auto;
   }
 
   .heading_text {
@@ -189,7 +178,6 @@
 
   .heading_text_h2{
     width: 772px;
-    height: 164px;
     font-size: 60px;
     letter-spacing: -1px;
     line-height: 82px;
@@ -200,7 +188,7 @@
 
   .heading_text_h3{
     width: 772px;
-    height: 164px;
+
     font-size: 24px;
     letter-spacing: -1px;
     line-height: 82px;
@@ -215,12 +203,21 @@
     height: auto;
   }
 
+  .featured-products {
+    padding-top: 101px;
+    padding-bottom: 101px;
+    background-color: #e9f0fd;
+    margin: 0 auto;
+  }
+
   .container {
     position: relative;
-    width: 1600px;
-    height: 422px;
+    width: 0 auto;
+    padding-top: 180px;
+    padding-bottom: 200px;
     margin: 0 auto;
     background-color: #e9f0fd;
+    text-align: center;
   }
 
   .clearfix::after {
@@ -381,14 +378,12 @@
 
   .footer {
     margin: 0 auto;
-    width: 1600px;
     padding: 0;
     height: 88px;
     background: #323232;
     margin: auto;
   }
   .footer-item {
-    width: 1600px;
     height: 88px;
     position: relative
   }
