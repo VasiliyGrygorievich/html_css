@@ -7,7 +7,8 @@
   }
 
   ul, ol {
-    list-style: none
+    list-style: none;
+    display: block;
   }
 
   .header_container {
@@ -143,6 +144,7 @@
   }
 
   .slider__img {
+    height: auto;
     margin: 0 auto;
     padding: 0;
     z-index: 0;
@@ -155,7 +157,6 @@
     top: 45%;
     left: 52%;
     transform: translate(-50%, -50%);
-
   }
 
   .heading_text_h2{
@@ -171,11 +172,11 @@
   .heading_text_h3{
     width: 772px;
     font-size: 24px;
-    letter-spacing: -1px;
-    line-height: 82px;
+    letter-spacing: -0.48px;
+    line-height: 54px;
     color: #ffffff;
     font-family: "Roboto";
-    font-weight: 200;
+    font-weight: 300;
   }
 
   img {
