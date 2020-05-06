@@ -1,0 +1,411 @@
+:root {
+    --font-kaushan: "Kaushan Script", serif;
+    --font-montserrat: "Montserrat", serif;
+    --font-roboto: "Roboto", serif;
+    --color333333: #333333;
+    --color999999: #999999;
+    --color95e1d3: #95e1d3;
+    --colorfce38a: #fce38a;
+    --colorf38181: #f38181;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .conteiner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 26px 0 126px;
+  }
+  
+  .logotype {
+    color: var(--color95e1d3);
+    font-size: 30px;
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    line-height: 36px;
+    text-decoration: none;
+  }
+  
+  .logotype span {
+    text-transform: uppercase;
+  }
+  
+  .navigation_list {
+    display: flex;
+  }
+  
+  .navigation_list-item {
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    line-height: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 56px;
+  }
+  
+  .navigation_list-item:last-child {
+    margin-right: 0px;
+  }
+  
+  .navigation_list-link {
+    color: var(--color95e1d3);
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .navigation_list-link:hover {
+    color: var(--colorf38181);
+    transition: width 0.2s linear;
+  }
+  
+  .navigation_list-link:hover::after {
+    width: 100%;
+  }
+  
+  .navigation_list-link::after {
+    display: block;
+    width: 0%;
+    content: "";
+    height: 3px;
+    bottom: -10px;
+    background-color: var(--colorf38181);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width 0.2s linear;
+  }
+  
+  .team {
+    margin-bottom: 82px;
+  }
+  
+  .services_title, .team_title {
+    color: var(--color333333);
+    text-align: center;
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 112px;
+  }
+  
+  .services_title::first-letter, .team_title::first-letter {
+    text-transform: uppercase;
+  }
+  
+  .services_title span, .team_title span {
+    font-family: var(--font-kaushan);
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+  
+  .services_title::after, .team_title::after {
+    display: block;
+    width: 60px;
+    content: "";
+    height: 3px;
+    bottom: -40px;
+    background-color: var(--colorf38181);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .services_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .services_list-item {
+    width: 382px;
+    margin-bottom: 102px;
+  }
+  
+  .services_list-item_photography {
+    background-image: url(../img/i1.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_list-item_desing {
+    background-image: url(../img/i2.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_list-item_creativity {
+    background-image: url(../img/i3.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_list-item_seo {
+    background-image: url(../img/i4.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_list-item_css {
+    background-image: url(../img/i5.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_list-item_digital {
+    background-image: url(../img/i6.png);
+    background-repeat: no-repeat;
+    background-position: 22px 4px;
+  }
+  
+  .services_name {
+    color: var(--color333333);
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding-left: 82px;
+    padding-bottom: 20px;
+  }
+  
+  .services_about {
+    color: var(--color999999);
+    font-size: 15px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 82px;
+  }
+  
+  .team_title {
+    margin-bottom: 88px;
+  }
+  
+  .team_title_info {
+    color: var(--color999999);
+    font-size: 15px;
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    text-align: center;
+    max-width: 980px;
+    margin: 0 auto 92px;
+  }
+  
+  .team_photo {
+    display: flex;
+    justify-content: space-between;
+  }
+  .team_photo_list {
+    width: 380px;
+  }
+  
+  .team_photo_item {
+    margin-bottom: 28px;
+    position: relative;
+  }
+  
+  .team_photo_item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+  }
+  
+  .team_photo_item:hover {
+    transform: translate(-10px, -10px);
+    transition: all 0.2s linear;
+    box-shadow: 10px 10px var(--color95e1d3);
+  }
+  
+  .team_photo_name {
+    color: var(--color333333);
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  
+  .team_photo_position {
+    color: var(--color999999);
+    font-size: 15px;
+    font-family: var(--font-roboto);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .social-list {
+    display: flex;
+  }
+  
+  .social-list__item-link {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--colorfce38a);
+  }
+  
+  .social-list__item-link:hover {
+    background-color: var(--color95e1d3);
+    transition: background-color 0.2s linear;
+  }
+  
+  .social-list__item-link_facebook {
+    background-image: url(../img/facebook.png);
+  }
+  
+  .social-list__item-link_twitter {
+    background-image: url(../img/twitter.png);
+  }
+  
+  .social-list__item-link_pinterest {
+    background-image: url(../img/pinterest.png);
+  }
+  
+  .social-list__item-link_instagram {
+    background-image: url(../img/instagram.png);
+  }
+  
+  .overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background: linear-gradient(0deg, rgb(252, 227, 138, 0.9), rgb(243, 129, 129, 0.9));
+    background-clip: padding-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+  }
+  
+  .footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 62px;
+    position: relative;
+  }
+  
+  .footer_info::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 1200px;
+    position: absolute;
+    background-color: rgb(229, 229, 229);
+    top: 0;
+  }
+  
+  .footer_info div {
+    display: flex;
+  }
+  
+  .footer_info_text {
+    color: var(--color333333);
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    line-height: 17px;
+  }
+  
+  .footer_info_text::before {
+    content: "\00A9";
+  }
+  
+  .footer_info_link {
+    color: var(--colorf38181);
+    font-size: 14px;
+    font-family: var(--font-montserrat);
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    display: flex;
+  }
+  
+  .contact-form__input {
+    width: 230px;
+    height: 40px;
+    color: rgb(39, 41, 41);
+    border-width: 1px;
+    border-right: none;
+    border-color: #e7e7e7;
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: var(--font-roboto);
+    font-style: italic;
+    line-height: 24px;
+  }
+  
+  .contact-form__btn {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: rgb(149, 225, 211);
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+  }
+  
+  .contact-form__input::placeholder {
+    color: #ccc;
+  }
