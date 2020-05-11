@@ -72,7 +72,7 @@
   
   .logotype {
     color: #fed136;
-    font-family: 'Cookie' sans-serif;
+    font-family: 'Cookie';
     font-weight: 700;
     text-decoration: none;
     font-size: 26px;
@@ -92,7 +92,7 @@
   .navigation_list-item {
     color: #222222;
     font-size: 14px;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     line-height: 41px;
     font-weight: 400;
     text-transform: uppercase;
@@ -126,7 +126,7 @@
   .services_title {
     color: #222222;
     text-align: center;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -138,7 +138,7 @@
     font-weight: 400;
     font-style: italic;
     text-align: center;
-    font-family: 'Titillium Web' sans-serif;
+    font-family: 'Titillium Web';
     margin-bottom: 75px;
     z-index: 2;
   }
@@ -148,7 +148,7 @@
   }
   
   .services_title span, .contact_title span {
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-size: 24px;
     line-height: 29px;
     font-weight: 400;
@@ -187,7 +187,7 @@
     text-transform: uppercase;
     letter-spacing: 0px;
     color: #222222;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat' ;
     font-weight: 700;
   }
 
@@ -198,7 +198,7 @@
     margin-bottom: 18px;
     letter-spacing: 0px;
     color: #777777;
-    font-family: 'Roboto Slab' sans-serif;
+    font-family: 'Roboto Slab' ;
     font-weight: 400;
     text-align: center;
   }
@@ -236,7 +236,7 @@
   .contact_title {
     color: #fff;
     text-align: center;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -251,9 +251,6 @@
     margin: 0 auto;
   }
 
-  .contact-form_block {
-  }
-
   .contact-form__input {
     width: 457px;
     height: 52px;
@@ -261,7 +258,7 @@
     font-size: 14px;
     letter-spacing: 0px;
     color: #bbbbbb;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700;
     padding-left: 20px;
     border-radius: 5px;
@@ -272,7 +269,7 @@
     height: 212px;
     padding-left: 20px;
     padding-top: 20px;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-size: 14px;
     letter-spacing: 0px;
     color: #bbbbbb;
@@ -290,7 +287,7 @@
     cursor: pointer;
     font-size: 18px;
     color: #ffffff;
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-weight: 700;
     text-align: center;
     border-radius: 5px;
