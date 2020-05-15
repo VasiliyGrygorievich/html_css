@@ -167,10 +167,10 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  height: 32px;
-  width: 32px;
-  border: 4px solid #ffffff;
+  border: 4px solid #fff;
   border-radius: 50%;
+  width: 32px;
+  height: 32px;
   right: 0;
   bottom: 0;
 }
