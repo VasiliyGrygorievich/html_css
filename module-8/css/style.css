@@ -22,15 +22,30 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  text-align: center;
 }
 
 html {
   box-sizing: border-box;
 }
 
+a { 
+  text-decoration: none; 
+ } 
+
 ul,
 ol {
   list-style: none;
+}
+
+a {
+
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
 }
 
 .header {
@@ -132,7 +147,11 @@ ol {
   font-weight: 700;
   text-align: center;
   padding-top: 72px;
-  padding-bottom: 33px;
+}
+
+
+.partner {
+  padding-top: 30px;
 }
 
 .partner_list {
@@ -228,3 +247,93 @@ ol {
   margin: 0;
   margin-bottom: 73px;
 } 
+
+@media (min-width: 360px) {
+  .container {
+  width: 320px;
+  height: auto;
+  }
+
+  .header {
+    background-image: url("../img/smart.png");
+  }
+
+  .header__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .header__description {
+    margin-bottom: 20px;
+  }
+
+  .navigation {
+    height: auto;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 40px;
+    margin: 0;
+  }
+
+  .navigation__list {
+    margin-left: 64px;
+    margin-bottom: 115px;
+  }
+
+  .logotype {
+    margin-left: 68px;
+    margin-bottom: 20px;
+  }
+
+  .partner {
+    height: 1080px;
+
+  }
+
+  .partner_list {
+    flex-wrap: wrap;
+    padding-left: 60px;
+  }
+
+  .partner_list-item {
+    margin-bottom: 30px;
+    height: 240px;
+  }
+
+  .modal-btn {
+    width: 280px;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-image: url("../img/Vector\ Smart\ Object\ \(1\)\ \(1\).png");
+  }
+
+  .container {
+    width: 748px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .partner_list {
+    width: 492px;
+    height: 480px;
+    flex-wrap: wrap;
+  }
+
+  .partner {
+    margin-left: 138px;
+  }
+
+  .navigation {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .partner_btn {
+    margin-bottom: 40px;
+  }
+}
+
