@@ -248,7 +248,39 @@ img {
   margin-bottom: 73px;
 } 
 
-@media (min-width: 360px) {
+@media (max-width: 1365px) {
+  .header {
+    background-image: url("../img/Vector\ Smart\ Object\ \(1\)\ \(1\).png");
+  }
+
+  .container {
+    width: 748px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .partner_list {
+    width: 492px;
+    height: 480px;
+    flex-wrap: wrap;
+  }
+
+  .partner {
+    margin-left: 138px;
+    height: auto;
+  }
+
+  .navigation {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .partner_btn {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
   .container {
   width: 320px;
   height: auto;
@@ -285,13 +317,13 @@ img {
   }
 
   .partner {
+    margin-left: 50px;
     height: 1080px;
-
   }
 
   .partner_list {
     flex-wrap: wrap;
-    padding-left: 60px;
+    width: auto;
   }
 
   .partner_list-item {
@@ -305,35 +337,3 @@ img {
 
 
 }
-
-@media (min-width: 768px) {
-  .header {
-    background-image: url("../img/Vector\ Smart\ Object\ \(1\)\ \(1\).png");
-  }
-
-  .container {
-    width: 748px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .partner_list {
-    width: 492px;
-    height: 480px;
-    flex-wrap: wrap;
-  }
-
-  .partner {
-    margin-left: 138px;
-  }
-
-  .navigation {
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  .partner_btn {
-    margin-bottom: 40px;
-  }
-}
-
