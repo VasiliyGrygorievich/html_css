@@ -242,8 +242,6 @@ span {
 } 
 
 @media (max-width: 767px) {
-
-
   .logotype {
     display: block;
     width: max-content;
@@ -316,8 +314,6 @@ span {
     margin-bottom: 40px;
   }
 }
-
-
 
 @media (min-width: 992px) {
   .logotype {
