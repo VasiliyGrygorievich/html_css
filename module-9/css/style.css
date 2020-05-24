@@ -77,6 +77,19 @@ span {
   margin-bottom: 40px;
 }
 
+.logotype {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
+  text-align: center;
+  cursor: pointer;
+}
+
 .login_btn {
   width: 90px;
   height: 36px;
@@ -117,10 +130,6 @@ span {
   text-align: center;
 }
 
-.logotype {
-  cursor: pointer;
-}
-
 .modal-btn {
   width: 225px;
   height: 40px;
@@ -152,12 +161,14 @@ span {
 .partner_list {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .partner_list-item {
   width: 220px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .partner_box {
@@ -238,36 +249,21 @@ span {
   cursor: pointer;
   margin-top: 24px;
   margin-bottom: 73px;
-  
 } 
 
-@media (max-width: 767px) {
-  .logotype {
-    display: block;
-    width: max-content;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 1px;
-    font-family: 'Montserrat';
-    text-align: center;
-  }
-
+@media (max-width: 469px) {
   .partner {
-    height: 1080px;
+    height: 1100px;
+  }
+}
+
+@media (min-width: 470px) {
+  .partner {
+    height: 560px;
   }
 
   .partner_list {
-    flex-wrap: wrap;
-  }
-
-  .partner_list-item {
-    margin-bottom: 30px;
-  }
-
-  .modal-btn {
-    width: 280px;
+    height: 530px;
   }
 }
 
@@ -296,13 +292,14 @@ span {
     text-align: center;
   }
 
-  .partner_list {
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .partner {
+    height: 560px;
   }
 
-  .partner {
-    height: auto;
+  .partner_list {
+    height: 530px;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .navigation {
@@ -315,7 +312,7 @@ span {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .logotype {
     font-size: 20px;
     font-weight: 700;
@@ -334,8 +331,13 @@ span {
     margin-bottom: 32px;
   }
 
+  .partner {
+    height: 285px;
+  }
+
   .partner_list {
     width: 100%;
     height: 255px;
   }
+  margin-bottom: 0;
 }
