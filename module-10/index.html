@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <div class="conteiner">
+        <div class="header__conteiner container">
             <nav class="navigation">
                 <a href="#" class="logotype"><span>m</span>o<span>g</span>o</a>
                 <ul class="navigation__list">
@@ -31,42 +31,95 @@
                         <a href="#" class="navigation__list-link">contact</a>
                     </li>
                     <li class="navigation__list-item">
-                        <a href="#" class="navigation__list-link"></a>
+                        <a href="#" class="navigation__list-link">
+                            <svg class="navigation__list-link_svg card">
+                                <use href="./img/icons/sprite.svg#icon-shoping-card"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="navigation__list-item">
-                        <a href="#" class="navigation__list-link"> </a>
+                        <a href="#" class="navigation__list-link">
+                            <svg class="navigation__list-link_svg glass">
+                                <use href="./img/icons/sprite.svg#icon-magnifying-glass"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </nav>
+            <h3 class="header-title">Creative Template</h3>
+            <h2 class="header-title__second">WELCOME<br>TO MOGO</h2>
+            <button class="header-btn">Learn more</button>
         </div>
     </header>
     <main>
         <section class="services conteiner">
             <h2 class="services-title"><span>we work with</span><br>amazing services</h2>
             <ul class="services__list">
-                <li class="services__list-item services__list-item_photography">
-                    <h3 class="services__name">photography</h3>
-                    <p class="services__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </li>_
-                <li class="services__list-item services__list-item_desing">
-                    <h3 class="services__name">web design</h3>
-                    <p class="services__about">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-alarm"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">photography</h3>
+                        <p class="services__about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
-                <li class="services__list-item services__list-item_creativity">
-                    <h3 class="services__name">creativity</h3>
-                    <p class="services__about">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-graph"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">web design</h3>
+                        <p class="services__about">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
-                <li class="services__list-item services__list-item_seo">
-                    <h3 class="services__name">seo</h3>
-                    <p class="services__about">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-computer"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">creativity</h3>
+                        <p class="services__about">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
-                <li class="services__list-item services__list-item_css">
-                    <h3 class="services__name">css/html</h3>
-                    <p class="services__about">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-book"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">seo</h3>
+                        <p class="services__about">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                    </div>
                 </li>
-                <li class="services__list-item services__list-item_digital">
-                    <h3 class="services__name">digital</h3>
-                    <p class="services__about">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-home"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">css/html</h3>
+                        <p class="services__about">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
+                    </div>
+                </li>
+                <li class="services__list-item">
+                    <div class="services__list-item_box-icon">
+                        <svg class="services__list-item_box-icon_icon">
+                            <use href="./img/icons/sprite.svg#icon-image"></use>
+                        </svg>
+                    </div>
+                    <div class="services__list-item_box-text">
+                        <h3 class="services__name">digital</h3>
+                        <p class="services__about">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </li>
             </ul>
         </section>
@@ -78,26 +131,38 @@
             <ul class="team__photo">
                 <li class="team__photo_list">
                     <div class="team__photo_list_item">
-                        <img class="image_team" src="./img/team1.png" height="470" width="380" alt="photo Matthew Dix">
+                        <img class="image_team" srcset="./img/team1.png 380w, ./img/team1@2x.png 760w" sizes="380px" height="470px" src="./img/team1.png" alt="photo Matthew Dix">
                         <div class="overlay">
                             <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_facebook">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-facebook"></use>
+                                        </svg>
                                         <span class="visually-hidden">facebook link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_twitter">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-twitter"></use>
+                                        </svg>
                                         <span class="visually-hidden">twitter link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_pinterest">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-pinterest"></use>
+                                        </svg>
                                         <span class="visually-hidden">pinterest link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_instagram">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-instagram"></use>
+                                        </svg>
                                         <span class="visually-hidden">instagram link</span>
                                     </a>
                                 </li>
@@ -109,26 +174,38 @@
                 </li>
                 <li class="team__photo_list">
                     <div class="team__photo_list_item">
-                        <img class="image_team" src="./img/team2.png" height="470" width="380" alt="photo Christopher Campbell">
+                        <img class="image_team" srcset="./img/team2.png 380w, ./img/team2@2x.png 760w" sizes="380px" height="470px" src="./img/team2.png" alt="photo Matthew Dix">
                         <div class="overlay">
                             <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_facebook">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-facebook"></use>
+                                        </svg>
                                         <span class="visually-hidden">facebook link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_twitter">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-twitter"></use>
+                                        </svg>
                                         <span class="visually-hidden">twitter link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_pinterest">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-pinterest"></use>
+                                        </svg>
                                         <span class="visually-hidden">pinterest link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_instagram">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-instagram"></use>
+                                        </svg>
                                         <span class="visually-hidden">instagram link</span>
                                     </a>
                                 </li>
@@ -140,33 +217,45 @@
                 </li>
                 <li class="team__photo_list">
                     <div class="team__photo_list_item">
-                        <img class="image_team" src="./img/team3.png" height="470" width="380" alt="photo Michael Fertig">
+                        <img class="image_team" srcset="./img/team3.png 380w, ./img/team3@2x.png 760w" sizes="380px" height="470px" src="./img/team3.png"  alt="photo Michael Fertig">
                         <div class="overlay">
                             <ul class="social-list">
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_facebook">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-facebook"></use>
+                                        </svg>
                                         <span class="visually-hidden">facebook link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_twitter">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-twitter"></use>
+                                        </svg>
                                         <span class="visually-hidden">twitter link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_pinterest">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-pinterest"></use>
+                                        </svg>
                                         <span class="visually-hidden">pinterest link</span>
                                     </a>
                                 </li>
                                 <li class="social-list__item">
-                                    <a href="#" class="social-list__item-link social-list__item-link_instagram">
+                                    <a href="#" class="social-list__item-link">
+                                        <svg class="social-list__item-link_social-networks">
+                                            <use href="./img/icons/sprite.svg#icon-instagram"></use>
+                                        </svg>
                                         <span class="visually-hidden">instagram link</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <p class="team__photo_name">Christopher Campbell</p>
+                    <p class="team__photo_name">Michael Fertig </p>
                     <p class="team__photo_position">Developer</p>
                 </li>
             </ul>
@@ -174,8 +263,8 @@
     </main>
     <footer class="footer conteiner">
         <div>
-            <p class="footer__text">2016 MoGo free PSD template by</p>
-            <a href="#" class="footer__link">Laaqiq</a>
+            <p class="footer__text">2016 MoGo free PSD template by</p>&nbsp;
+            <a href="#" class="footer__link"> Laaqiq</a>
         </div>
         <form action="#" class="contact-form">
             <input type="email" class="contact-form__input" placeholder="  Your Email...">
