@@ -156,7 +156,7 @@ img {
 
 .navigation__list-link_svg {
   width: 18px;
-  fill: #ffffff;
+  fill: #fff;
   background-color: unset;
 }
 
@@ -274,7 +274,7 @@ img {
 .services__list-item_box-icon_icon {
   width: 32px;
   height: 32px;
-  fill: rgb(149, 225, 211);
+  fill: #95e1d3;
 }
 
 .services__list-item_box-text {
