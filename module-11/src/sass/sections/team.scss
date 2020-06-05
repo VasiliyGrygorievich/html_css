@@ -1,0 +1,134 @@
+.team {
+  margin-bottom: 82px;
+}
+
+.team__title {
+  margin-bottom: 88px;
+}
+
+.team__title_info {
+  color: #999999;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto 92px;
+}
+
+.team__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.team__photo_list {
+  width: 380px;
+}
+
+.team__photo_list_item {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.team__photo_list_item:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+}
+
+.team__photo_list_item:hover {
+  -webkit-transform: translate(-10px, -10px);
+      -ms-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -webkit-box-shadow: 10px 10px #95e1d3;
+          box-shadow: 10px 10px #95e1d3;
+}
+
+.team__photo_name {
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.team__photo_position {
+  color: #999999;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-list__item-link {
+  display: block;
+  width: 56px;
+  height: 56px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fce38a;
+}
+
+.social-list__item-link:hover {
+  background-color: #95e1d3;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.social-list__item-link_social-networks {
+  width: 27px;
+  height: 41px;
+  fill: #f38181;
+  -webkit-transform: translate(50%, 20%);
+      -ms-transform: translate(50%, 20%);
+          transform: translate(50%, 20%);
+}
+
+.overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 381px;
+  height: 471px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
+  background: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+  background: linear-gradient(0deg, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9));
+  background-clip: padding-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
