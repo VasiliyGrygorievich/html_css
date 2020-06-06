@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://vasiliygrygorievich.github.io/html_css/module-11/src/index.html",
+  "homepage": "https://vasiliygrygorievich.github.io/html_css/module-11/build/index.html",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luxplanjay/gulp-starter-kit.git"
